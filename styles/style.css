@@ -107,6 +107,7 @@ nav li a {
 .enjoy-features {
     display: flex;
     justify-content: center;
+    gap: 30px;
     padding: 0 100px;
     margin-bottom: 100px;
 }
@@ -139,6 +140,23 @@ nav li a {
     color: #131313;
 }
 
+.btn-experience {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 170px;
+    height: 100px;
+    color: #FFFFFF;
+    transform: translate(-30%, -50%);
+}
+#big {
+    font-weight: 700;
+    font-size: 35px;
+}
+#small {
+    font-weight: 500;
+    font-size: 15px;
+}
+
 /* Some Facts */
 .facts {
     padding: 80px 150px;
@@ -151,7 +169,6 @@ nav li a {
 .facts-icons {
     display: flex;
     justify-content: space-around;
-    /* gap: 50px; */
     padding: 0 100px;
 }
 .icon-box {
@@ -172,6 +189,9 @@ nav li a {
     font-size: 20px;
     color: #727272;
 }
+
+
+
 /* Our Sponsors */
 
 .sponsor {
