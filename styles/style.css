@@ -1,0 +1,210 @@
+/* common styles of utilities */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-left: 34px;
+}
+nav li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+.banner {
+    text-align: center;
+}
+.banner-border {
+    padding: 0 350px;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+.banner-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 32px 0;
+}
+.btn-banner {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+}
+.banner img {
+    width: 80%;
+    padding: 45px 100px;
+}
+/* Quick list of Our Features */
+
+.quick-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    padding: 80px 150px;
+}
+
+.list-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.list-title {
+    font-size: 40px;
+}
+#gray {
+    font-weight: 500;
+    color: #727272;
+}
+#black {
+    font-weight: 700;
+    color: #131313;
+}
+#orange {
+    font-weight: 700;
+    color: #FF900E;
+}
+.list-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Features you will love & enjoy */
+.enjoy-features {
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+    margin-bottom: 100px;
+}
+.feature-title {
+    border-left: 5px solid #FF900E;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+.feature-sub-title, .loving-sub-title, .facts-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 20px;
+}
+.loving-features {
+    padding: 30px;
+}
+.feature-item {
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+}
+.loving-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+/* Some Facts */
+.facts {
+    padding: 80px 150px;
+}
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.facts-icons {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 50px; */
+    padding: 0 100px;
+}
+.icon-box {
+    margin-top: 70px;
+    padding: 30px 15px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    border-radius: 8px;
+    /* transform: rotate(90deg); */
+}
+.icon-points {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.icon-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+/* Our Sponsors */
+
+.sponsor {
+    text-align: center;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+.sponsor-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sponsor-owner {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 150px;
+
+}
+.sponsor-owner img {
+    filter: grayscale(100%);
+}
+/* footer */
+.footer {
+    text-align: center;
+    margin: 40px 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    border: 1px solid red;
+}
