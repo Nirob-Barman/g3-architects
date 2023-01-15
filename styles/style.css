@@ -51,7 +51,7 @@ nav li a {
     color: #727272;
     margin: 32px 0;
 }
-.btn-banner {
+.btn-banner, .btn-quick-list {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
@@ -59,6 +59,7 @@ nav li a {
     height: 64px;
     background: #FF900E;
     border-radius: 8px;
+    border-style: none;
 }
 .banner img {
     width: 80%;
@@ -146,6 +147,7 @@ nav li a {
     height: 100px;
     color: #FFFFFF;
     transform: translate(-30%, -50%);
+    border-style: none;
 }
 #big {
     font-weight: 700;
